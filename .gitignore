@@ -1,0 +1,24 @@
+# Training artifacts -- large, and everyone should generate their own.
+runs/
+*.pt
+*.npz
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+/env/            # a virtualenv at the repo root -- NOT walker_rl/env/
+*.egg-info/
+.pytest_cache/
+
+# Local tool config, not part of the project
+.claude/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
