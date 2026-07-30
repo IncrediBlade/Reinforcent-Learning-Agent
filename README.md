@@ -244,8 +244,3 @@ python RL_Agent.py test
 An RL agent will exploit any bug in the environment, so the environment is
 verified before anything is built on it.
 
----
-
-## License
-
-MIT
